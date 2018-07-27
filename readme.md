@@ -4,12 +4,11 @@
   3. Go to http://localhost:8080
   4. Edit/save index.html
   5. Profit!
-  
+
 ### package.json ###
 ```json
   {
     "name": "hotload",
-    "version": "1.0.0",
     "scripts": {
       "dev": "webpack-dev-server"
     },

@@ -1,6 +1,5 @@
 {
   "name": "hotload",
-  "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server"
   },
