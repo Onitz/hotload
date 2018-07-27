@@ -7,11 +7,11 @@
 
 
 ### Steps for running ### 
-  npm install 
-  npm run dev 
-  go to http://localhost:8080
-  edit/save index.html
-  profit
+  1. npm install 
+  2. npm run dev 
+  3. go to http://localhost:8080
+  4. edit/save index.html
+  5. profit
 
 ### PACKAGE.JSON ###
   {
