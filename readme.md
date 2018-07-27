@@ -13,7 +13,7 @@
   4. Edit/save index.html
   5. Profit
 
-### PACKAGE.JSON ###
+### package.json ###
 ```json
   {
     "name": "hotload",
@@ -30,7 +30,7 @@
   }
 ```
 
-### WEBPACK.CONFIG.JS ###
+### webpack.config.js ###
 ```javascript
   let HtmlWebpackPlugin = require('html-webpack-plugin');
   module.exports = {
