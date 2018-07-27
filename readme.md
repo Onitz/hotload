@@ -36,7 +36,7 @@
 Command                         | Explanation
 ------------------------------- | --------------------------------------------------
 `npm init`                      | Setup npm
-`nmp i -d webpack`              | Setup webpack
-`npm i -d webpack-dev-server`   | Needed to run up our local server with hot deploy
-`npm i -d webpack-cli`          | Needed to run webpack from command line
-`npm i -d html-webpack-plugin`  | Needed to load .html instead of .js application
+`nmp i -D webpack`              | Setup webpack
+`npm i -D webpack-dev-server`   | Needed to run up our local server with hot deploy
+`npm i -D webpack-cli`          | Needed to run webpack from command line
+`npm i -D html-webpack-plugin`  | Needed to load .html instead of .js application
