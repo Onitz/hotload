@@ -1,19 +1,18 @@
-### How to setup a project like this ###
-         Command              |        Explanation
------------------------------ | --------------------
-`npm init`                    | Init npm
-`nmp i -d webpack`            | Init webpack
-`npm i -d webpack-dev-server` | Needed to run up our local server with hot deploy
-`npm i -d webpack-cli`        | Needed to run webpack from command line
-`npm i -d html-webpack-plugin`| Needed to load .html instead of .js application
-
-
 ### Steps for running ### 
   1. `npm install`
   2. `npm run dev` 
   3. Go to http://localhost:8080
   4. Edit/save index.html
-  5. Profit
+  5. Profit!
+
+### How to setup a project like this ###
+         Command               |        Explanation
+-------------------------------|---------------------------------------------------
+`npm init`                     | Init npm
+`nmp i -d webpack`             | Init webpack
+`npm i -d webpack-dev-server`  | Needed to run up our local server with hot deploy
+`npm i -d webpack-cli`         | Needed to run webpack from command line
+`npm i -d html-webpack-plugin` | Needed to load .html instead of .js application
 
 ### package.json ###
 ```json
