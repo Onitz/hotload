@@ -9,11 +9,12 @@
 ### Steps for running ### 
   1. npm install 
   2. npm run dev 
-  3. go to http://localhost:8080
-  4. edit/save index.html
-  5. profit
+  3. Go to http://localhost:8080
+  4. Edit/save index.html
+  5. Profit
 
 ### PACKAGE.JSON ###
+```json
   {
     "name": "hotload",
     "version": "1.0.0",
@@ -27,8 +28,10 @@
       "webpack-dev-server": "^3.1.4"
     }
   }
+```
 
 ### WEBPACK.CONFIG.JS ###
+```javascript
   let HtmlWebpackPlugin = require('html-webpack-plugin');
   module.exports = {
     entry: [],
@@ -36,3 +39,4 @@
     mode: "development",
     plugins: [ new HtmlWebpackPlugin({template:"./index.html"})]
   };
+```
