@@ -7,7 +7,7 @@
 
 ### How to setup a project like this ###
          Command               |        Explanation
--------------------------------|---------------------------------------------------
+------------------------------ | -------------------------------------------------
 `npm init`                     | Init npm
 `nmp i -d webpack`             | Init webpack
 `npm i -d webpack-dev-server`  | Needed to run up our local server with hot deploy
