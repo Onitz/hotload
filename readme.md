@@ -7,8 +7,8 @@
 
 
 ### Steps for running ### 
-  1. npm install 
-  2. npm run dev 
+  1. `npm install`
+  2. `npm run dev` 
   3. Go to http://localhost:8080
   4. Edit/save index.html
   5. Profit
