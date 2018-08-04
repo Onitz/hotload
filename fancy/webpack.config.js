@@ -54,7 +54,7 @@ var settings = {
   "production": {
     mode: "production",
     entry: {
-      main: [ "./src/app.js", "./src/stylesheet.scss" ]
+      main: [ "./app.js", "./style.scss" ]
     },
     output: {
       path: path.resolve(__dirname, "dist"),
@@ -81,7 +81,7 @@ var settings = {
         filename: "compiled_stylesheet.css"
       }),
       new HtmlWebpackPlugin({
-        template: "./src/page.html",
+        template: "./page.html",
         minify: {
           collapseInlineTagWhitespace: true,
           collapseWhitespace: true
