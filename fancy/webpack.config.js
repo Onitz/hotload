@@ -41,7 +41,7 @@ var settings = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template:"./index.html"
+        template:"./page.html"
       })
     ]
   }, 
