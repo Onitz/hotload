@@ -40,3 +40,6 @@ Command                         | Explanation
 `npm i -D webpack-dev-server`   | Needed to run up our local server with hot deploy
 `npm i -D webpack-cli`          | Needed to run webpack from command line
 `npm i -D html-webpack-plugin`  | Needed to load .html instead of .js application
+
+### ..Alternatively ### 
+You can use /fancy for a barebones project with some more features (sass compilation, minify dev/prod mode)
